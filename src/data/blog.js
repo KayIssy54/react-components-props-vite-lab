@@ -9,7 +9,7 @@ const blogData = {
       id: 1,
       title: "My First Post",
       date: "May 1, 2026",
-      preview: "This is my first blog post",
+      preview: "First day coming across React",
       
     },
     {
@@ -23,7 +23,7 @@ const blogData = {
       id: 3,
       title: "Getting better",
       date:"May 3,2026",
-      preview: "I'm improving my coding skills step by step.",
+      preview: "I'm improving my react skills step by step.",
     
     },
   ],
