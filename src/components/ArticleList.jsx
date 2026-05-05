@@ -2,11 +2,11 @@ import Article from "./Article";
 
 function ArticleList({ posts }) {
   return (
-    <div className="article-list" >
+    <main className="article-list" >
       {posts.map((post) => (
-        <Article key={post.id} post={post} />
+        <Article key={post.id} {...post} />
       ))}
-    </div>
+    </main>
   );
 }
 
